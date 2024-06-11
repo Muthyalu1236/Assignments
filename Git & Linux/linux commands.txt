@@ -1,0 +1,24 @@
+pwd
+ls
+ls -a
+ls -al
+ls -l
+cd
+mkdir file
+rmdir file
+touch demo
+nano demo.txt
+cat demo.txt
+cat >demo.txt
+cp origin_path destination_path
+mv origin_path destination_path
+whoami
+head demo.txt
+tail.txt
+tac demo.txt
+sort demo.txt
+sort -r demo.txt
+sort -u demo.txt
+sort -ur demo.txt
+sort -t"." -k1 demo.txt
+sort -t"." -k2 demo.txt
