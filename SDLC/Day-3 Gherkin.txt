@@ -1,0 +1,37 @@
+Feature: login
+	As a user
+	I want to login into the application.
+	So that i can access my account information.
+
+Scenario: Successfull login
+	Given i am on login page.
+	When i enter my username and password.
+	And click on the login button.
+	And login details are correct.
+	Then i should be taken to the dashboard page.
+
+Scenario: Unsuccessfull login
+	Given i am on the login page.
+	When i enter the username and password.
+	And click on login button.
+	And login details are incorrect.
+	Then show invalid username or password.
+
+Feature: Flight ticket booking
+	As a user i want to see the available flights from the origin to destination.
+	On selecting the flight the available seats should be shown.
+	On selecting the seats and making the payment the tickets should be booked.
+
+Scenario: Successfull flight ticket booking
+	Given i am on the home page of flight ticket booking.
+	When i enter the origin and destination.
+	And click on search button.
+	Then the flights available for that path should be shown.
+	When i click on the flight.
+	Then the seats available for that flight shown.
+	When i click on the seats and make payment.
+	Then the ticket sholud be booked.
+	
+	
+	
+	

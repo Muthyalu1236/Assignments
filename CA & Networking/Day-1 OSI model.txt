@@ -1,0 +1,9 @@
+OSI model:-
+----------
+1. APPLICATION LAYER:- directly interacts with user sych as web pages or gmail.
+2. PRESENTATION LAYER:- performs data encryption and data compression
+3. SESSION LAYER:- manages session and connection betweenapplication
+4. TRANSPORT LAYER:- ensures the end to end communication through data packets
+5. NETWORK LAYER:- handles the routing of data packets across the network
+6. DATA LINK LAYER:- node to node data transfer and also detects error in physical connection
+7. PHYSICAL LAYER:- deals with the physical connection between devices through cables, switches.

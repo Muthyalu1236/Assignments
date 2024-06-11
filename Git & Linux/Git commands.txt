@@ -1,0 +1,41 @@
+…or create a new repository on the command line
+echo "# wiprotraining" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Muthyalu1236/wiprotraining.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Muthyalu1236/wiprotraining.git
+git branch -M main
+git push -u origin main
+
+git status
+git remote -v
+git log
+git log -oneline
+
+git reset
+git reset commit commitId
+
+git diff
+git diff file.txt
+git diff commitId1 commitId2
+git diff head
+
+git clone url
+git pull url
+git fork
+
+git branch
+git checkout -b branchName
+git checkout branchName
+git merge branchName
+git rebase branchName
+git branch -d branchName
+
+
+
+
